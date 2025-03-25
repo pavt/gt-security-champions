@@ -96,12 +96,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-03-25T16:04:17.816609-03:00"
+			"dateAndTimeString" : "2025-03-25T16:12:52.614738-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Gt-security champions"
+		"title" : "Gt-security-champions"
 	},
 	"uid" : {
 		"__type" : "uuid",
