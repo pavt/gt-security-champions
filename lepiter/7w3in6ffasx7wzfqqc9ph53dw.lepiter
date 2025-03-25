@@ -154,7 +154,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-25T16:24:06.664495-03:00"
+						"dateAndTimeString" : "2025-03-25T16:47:35.426563-03:00"
 					}
 				},
 				"editEmail" : {
@@ -165,14 +165,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-25T16:35:28.321513-03:00"
+						"dateAndTimeString" : "2025-03-25T16:49:16.791644-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "b8K4ZpHtDQCFADOYAXVMhQ=="
+					"uidString" : "hMGwupHtDQCGNzIEAXVMhQ=="
 				},
-				"code" : "GtActionRepo new rawData: dictionary."
+				"code" : "| ecosystem repo1 |\necosystem := GtActionEcosystem new.\n\nrepo1 := GtActionRepo new rawData: dictionary.\r\recosystem addRepo: repo1.\n\r\recosystem "
 			},
 			{
 				"__type" : "textSnippet",
