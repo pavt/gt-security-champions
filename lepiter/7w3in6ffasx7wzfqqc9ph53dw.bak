@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-25T16:04:54.463386-03:00"
+						"dateAndTimeString" : "2025-03-25T16:21:52.036586-03:00"
 					}
 				},
 				"uid" : {
@@ -37,6 +37,142 @@
 					"uidString" : "tYq4IJHtDQCDMjNJAXVMhQ=="
 				},
 				"code" : "GtSecurityChampion new champion"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T16:21:52.599953-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T16:23:34.707483-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "mBq7XpHtDQCEQGUQAXVMhQ=="
+				},
+				"code" : "url := 'https://api.github.com/repos/trufflesecurity/trufflehog'."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T16:22:24.289195-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T16:22:31.264657-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "YZueYJHtDQCE5Jg9AXVMhQ=="
+				},
+				"code" : "json := ZnClient new get: url."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T16:23:44.902718-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T16:23:45.641896-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "XrJsZZHtDQCE91LyAXVMhQ=="
+				},
+				"code" : "dictionary := STONJSON fromString: json."
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T16:24:06.664495-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T16:31:40.526876-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "b8K4ZpHtDQCFADOYAXVMhQ=="
+				},
+				"code" : "GtActionEcosystem new rawData: dictionary."
 			},
 			{
 				"__type" : "textSnippet",
@@ -96,12 +232,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2025-03-25T16:04:17.816609-03:00"
+			"dateAndTimeString" : "2025-03-25T16:12:52.614738-03:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Gt-security champions"
+		"title" : "Gt-security-champions"
 	},
 	"uid" : {
 		"__type" : "uuid",
