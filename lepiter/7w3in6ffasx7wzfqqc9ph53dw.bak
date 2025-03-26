@@ -199,14 +199,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-25T21:27:08.162588-03:00"
+						"dateAndTimeString" : "2025-03-25T21:27:18.476219-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "FpV3oJXtDQCIw1SpAXVMhQ=="
 				},
-				"code" : "ecosystem GtActionEcosystem fromGitHubUrls: {\n\t'https://api.github.com/repos/trufflesecurity/trufflehog'.\n\t'https://api.github.com/repos/zaproxy/zaproxy'.\n}\n"
+				"code" : "ecosystem := GtActionEcosystem fromGitHubUrls: {\n\t'https://api.github.com/repos/trufflesecurity/trufflehog'.\n\t'https://api.github.com/repos/zaproxy/zaproxy'.\n}.\necosystem"
 			},
 			{
 				"__type" : "pharoSnippet",
@@ -233,14 +233,14 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-25T21:26:50.200711-03:00"
+						"dateAndTimeString" : "2025-03-25T21:27:12.705332-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "yJ9RoZXtDQCIzC6qAXVMhQ=="
 				},
-				"code" : "GtActionEcosystem fromGitHubUrls: {\n\t'https://api.github.com/repos/trufflesecurity/trufflehog'.\n\t'https://api.github.com/repos/zaproxy/zaproxy'.\n}\n"
+				"code" : "\n"
 			},
 			{
 				"__type" : "textSnippet",

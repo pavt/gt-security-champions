@@ -1,6 +1,6 @@
 Class {
 	#name : #GtActionEcosystem,
-	#superclass : #GtActionObject,
+	#superclass : #GtActionEntity,
 	#instVars : [
 		'repos'
 	],
@@ -24,6 +24,19 @@ GtActionEcosystem class >> fromGitHubUrls: urlList [
 { #category : #managing }
 GtActionEcosystem >> addRepo: aRepo [
 	self repos add: aRepo
+]
+
+{ #category : #'as yet unclassified' }
+GtActionEcosystem >> gtReposFor: aView [
+	<gtView>
+	^ aView columnedList
+		title: 'Actions repos';
+		priority: 40;
+		items: [ self repos ]
+		"column: 'Repo' text: #name;
+		column: 'Description' text: #description;
+		column: 'Open issues' text: #numberOfOpenIssues;
+		column: 'License' text: #licenseName"
 ]
 
 { #category : #'as yet unclassified' }
