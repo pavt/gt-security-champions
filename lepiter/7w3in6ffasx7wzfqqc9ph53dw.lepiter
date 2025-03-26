@@ -165,14 +165,82 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2025-03-25T16:49:16.791644-03:00"
+						"dateAndTimeString" : "2025-03-25T21:20:39.768252-03:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
 					"uidString" : "hMGwupHtDQCGNzIEAXVMhQ=="
 				},
-				"code" : "| ecosystem repo1 |\necosystem := GtActionEcosystem new.\n\nrepo1 := GtActionRepo new rawData: dictionary.\r\recosystem addRepo: repo1.\n\r\recosystem "
+				"code" : "ecosystem := GtActionEcosystem new.\n\nrepo1 := GtActionRepo new rawData: dictionary.\r\recosystem addRepo: repo1.\n\r\recosystem "
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T21:26:35.340788-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T21:27:18.476219-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "FpV3oJXtDQCIw1SpAXVMhQ=="
+				},
+				"code" : "ecosystem := GtActionEcosystem fromGitHubUrls: {\n\t'https://api.github.com/repos/trufflesecurity/trufflehog'.\n\t'https://api.github.com/repos/zaproxy/zaproxy'.\n}.\necosystem"
+			},
+			{
+				"__type" : "pharoSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T21:26:49.630218-03:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2025-03-25T21:27:12.705332-03:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "yJ9RoZXtDQCIzC6qAXVMhQ=="
+				},
+				"code" : "\n"
 			},
 			{
 				"__type" : "textSnippet",

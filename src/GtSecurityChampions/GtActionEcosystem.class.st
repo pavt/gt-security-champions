@@ -7,6 +7,20 @@ Class {
 	#category : #'GtSecurityChampions-Model'
 }
 
+{ #category : #'instance-creation' }
+GtActionEcosystem class >> fromGitHubUrls: urlList [
+	| ecosystem |
+	ecosystem := self new.
+	urlList
+		do: [ :url | 
+			| json dict repo |
+			json := ZnClient new get: url.
+			dict := STONJSON fromString: json.
+			repo := GtActionRepo new rawData: dict.
+			ecosystem addRepo: repo ].
+	^ ecosystem
+]
+
 { #category : #managing }
 GtActionEcosystem >> addRepo: aRepo [
 	self repos add: aRepo
